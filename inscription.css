@@ -1,0 +1,118 @@
+html{
+	background-color:#333333;
+	font-size:100%;
+	font-family:arial;
+	color:white;
+}
+
+body{
+	margin:0px;
+}
+
+
+/*MENU----------------------------------------------------------------*/
+
+#menu{
+	background-color:#1B1B1B;
+}
+
+.menu{
+	color:white;
+	text-decoration:none;
+	font-size:220%;
+	border-right:3px solid white;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.menu:hover{
+	background-color:#fcebbd;
+	border-radius:7px;
+	color:black;
+}
+
+.compte{
+	color:white;
+	text-decoration:none;
+	font-size:220%;
+
+}
+
+.divcompte{
+	float: right;
+	border-left:3px solid white;
+	padding-right:10px;
+	padding-left:10px;
+ }
+
+.divcompte:hover{
+	background-color:#fcebbd;
+	border-radius:7px;
+	color:black;
+}
+
+.hr{
+	 width : 100%; 
+	 border:1px solid white;
+	 margin-top:3px;
+}
+
+/*CONTENU-------------------------------------------------------------*/
+
+.contenu{
+	text-align:center;
+}
+
+
+fieldset{
+	width:10%;
+	border-radius:7px;
+	margin:auto;
+	
+}
+
+
+.champ{
+	color:white;
+	font-size:150%;
+	background-color:#333333;
+	border:none;
+	border-bottom:2px solid white;
+	padding:20px;
+}
+
+.connect{
+	color:white;
+	font-size:150%;
+	background-color:#333333;
+	border:2px solid white;
+	border-radius:15px;
+}
+
+.connect:hover{
+	background-color:#fcebbd;
+	color:black;
+}
+
+span{
+	font-size:150%;
+}
+
+.inscrire{
+	color:white;
+	font-size:150%;
+	text-decoration:none;
+	background-color:#333333;
+	border:1px solid white;
+	border-radius:7px;
+	padding:8px;
+}
+
+.inscrire:hover{
+	background-color:#fcebbd;
+	color:black;
+}
+
+
+
+
