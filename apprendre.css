@@ -1,0 +1,342 @@
+html{
+	background-color:#333333;
+	font-size:100%;
+	font-family:arial;
+	color:white;
+}
+
+body{
+	margin:0px;
+	overflow-x: hidden;
+}
+
+/*MENU----------------------------------------------------------------*/
+
+#menu{
+	background-color:#1B1B1B;	
+}
+
+.menu{
+	color:white;
+	text-decoration:none;
+	font-size:220%;
+	border-right:3px solid white;
+	padding-right:10px;
+	padding-left:10px;
+	
+}
+
+.menu:hover{
+	background-color:#fcebbd;
+	border-radius:7px;
+	color:black;
+}
+
+.compte{
+	color:white;
+	text-decoration:none;
+	font-size:220%;
+
+}
+
+.divcompte{
+	float: right;
+	border-left:3px solid white;
+	padding-right:10px;
+	padding-left:10px;
+ }
+
+.divcompte:hover{
+	background-color:#fcebbd;
+	border-radius:7px;
+	color:black;
+}
+
+.hr{
+	 width : 100%; 
+	 border:1px solid white;
+	 margin-top:3px;
+}
+
+/*CONTENU-------------------------------------------------------------*/
+h1{
+    text-align: center;
+    font-size: 350%;
+    text-decoration: underline;
+}
+
+figure{
+    font-size: 200%;
+}
+
+div.contenu p{
+    font-size: 150%;
+}
+
+p{
+  margin-left: 10px;
+  font-style: italic;
+}
+
+a{
+  color: white;
+  font-size: 110%;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+/*PION------------------------------------------------------------------------*/
+.pion {
+    display: flex;
+    align-items: center;
+  }
+  
+  .figpion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  
+  .figpion img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .figpion figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  
+  .pion p {
+    margin-left: 10px;
+    font-size: 110%;
+  }
+
+/*CAVALIER---------------------------------------------------------------------*/
+.cavalier {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row-reverse;
+  }
+  
+  .figcav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  .figcav img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .figcav figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  
+  .cavalier p {
+    margin-right: 10px;
+    font-size: 110%;
+  }
+
+/*FOU---------------------------------------------------------------------*/
+.fou {
+    display: flex;
+    align-items: center;
+  }
+  
+  .figfou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  
+  .figfou img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .figfou figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  
+  .fou p {
+    margin-left: 10px;
+    font-size: 110%;
+  }
+
+/*TOUR---------------------------------------------------------------------*/
+.tour {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row-reverse;
+  }
+  
+  .figtour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  .figtour img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .figtour figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  
+  .tour p {
+    margin-right: 10px;
+    font-size: 110%;
+  }
+
+/*REINE---------------------------------------------------------------------*/
+.reine {
+    display: flex;
+    align-items: center;
+  }
+  
+  .figreine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  
+  .figreine img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .figreine figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  
+  .reine p {
+    margin-left: 10px;
+    font-size: 110%;
+  }
+
+/*ROI---------------------------------------------------------------------*/
+.roi {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row-reverse;
+  }
+  
+  .figroi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  .figroi img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .figroi figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  
+  .roi p {
+    margin-right: 10px;
+    font-size: 110%;
+  }
+
+/*ECHEC---------------------------------------------------------------------*/
+.echec {
+    display: flex;
+    align-items: center;
+  }
+  
+  .figechec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  
+  .figechec img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .figechec figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  
+  .echec p {
+    margin-left: 10px;
+    font-size: 110%;
+  }
+
+/*MAT---------------------------------------------------------------------*/
+.mat {
+    display: flex;
+    align-items: center;
+  }
+  
+  .figmat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  
+  .figmat img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .figmat figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  
+  .mat p {
+    margin-left: 10px;
+    font-size: 110%;
+  }

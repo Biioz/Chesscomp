@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Chesscomp | Inscription</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="inscription.css">
+	</head>
+	<body>
+	</body>
+		<div id = "menu">
+			<a class = "menu" href="accueil.html">CHESSCOMP</a>
+			<a class = "menu" href="test.html">Compétition</a>
+			<a class = "menu" href="test.html">Apprendre</a>
+			<a class = "menu" href="test.html">Mentions légals</a>
+			<a class = "menu" href="test.html">Plan</a>
+			<div class = "divcompte"><a class = "compte" href="connexion.html">Mon compte</a></div>
+			<div class = "hr" ></div>
+		</div>
+		<br>
+		<br>
+		
+		<div class = "contenu">
+				<fieldset>
+					<form id="inscription" action="www.php" method="post">
+						<span>Inscription</span>
+						
+						<br><br>
+						
+						<label><input class = "champ" type="text" size="30" name="nom"  placeholder="Nom" ></label>
+						<label><input class = "champ" type="text" size="30" name="prenom" placeholder="Prenom" ></label><br><br>
+						<label><input class = "champ" type="email" size="60" name="mail"  placeholder="Email" pattern="[A-Za-z_-]+@[a-z]+\.[a-z]{2,3}" requiered></label><br><br>
+						<label><input class = "champ" type="password" size="60" name="password1"  placeholder="Mot de passe" ></label><br><br>		
+						<label><input class = "champ" type="password" size="60" name="password2"  placeholder="Confirmer mot de passe" ></label><br><br>	
+						<label><input class = "champ" type="date" size="50" name="dateNaissance" value="jj/mm/aaaa" ></label><br><br>
+						<label><span>Catégorie :</span> <br><br> Amateur<input class = "champ" type="radio" name="amateur" value="Amateur"></label><label>Officiel<input class = "champ" type="radio" name="officiel" value="Officiel"></label>	
+						<label><input class = "champ" type = "number" size="5" name="rang"  placeholder = "rang (si officiel)"  min = "100" step="1" ></label>
+						<br><br>
+						
+						<span>Nationalité :</span><br><br>
+						<select class = "champ" id="nationalite" name="nationalite" size="1">
+							<option value="fr">France</option>
+							<option value="an">Angleterre</option>
+							<option value="al">Allemagne</option>
+							<option value="es">Espagne</option>
+							<option value="it">Italie</option>
+							<option value="pr">Portugal</option>
+							<option value="ir">Irland</option>
+							<option value="be">Belgique</option>
+							<option value="ne">Pays-Bas</option>
+							<option value="su">Suisse</option>
+							<option value="us">Etats-Unis</option>
+							<option value="ch">Chine</option>
+							<option value="in">Inde</option>
+						</select> 	
+						
+						<br><br>
+						
+						<label><input class = "connect" type="submit" id = "inscrire" name="inscrire" value="S'inscrire"></label>
+						
+					</form>
+				</fieldset>
+
+		</div>

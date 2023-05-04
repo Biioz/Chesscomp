@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Apprendre les échecs</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="apprendre.css" media="all">
+	</head>
+	<body>
+		
+		<div id = "menu">
+			<a class = "menu" href="accueil.html">CHESSCOMP</a>
+			<a class = "menu" href="competition.html">Compétition</a>
+			<a class = "menu" href="apprendre.html">Apprendre</a>
+			<a class = "menu" href="informations.html">Informations</a>
+			<a class = "menu" href="plan.html">Plan</a>
+			<a class = "compte" href="connexion.html"><div class = "divcompte">Mon compte</div></a>
+			<div class = "hr" ></div>
+		</div>
+
+        <div class = "contenu">
+
+            <h1>Apprendre les bases</h1>
+
+            <div class="pion">
+                <figure class="figpion">
+                <figcaption>Le pion</figcaption>
+                <img src="img/pion.png" alt="Image du pion sur un damier et ses déplacements">
+                </figure>
+                <p>Le pion est la pièce la plus présente sur l'échiquier, vous en disposez de 8. En position initiale, il peut avancer d'1 ou 2 cases à la verticale mais hors de sa position initiale il est limité à des avancées d'1 case. <br>
+                    Il peut cependant se déplacer d'une case à la diagonale si une pièce ennemie est située sur une case diagonale au pion, toujours à une distance d'1 case près et par la même occasion, prenant cette pièce à votre adversaire. <br>
+                    Si jamais il parvient à avancer jusqu'à la dernière case, il peut alors être transformé en la pièce de votre choix. <br>
+                    Il est aussi important de noter que le pion peut uniquement avancer, il est incapable de reculer.
+                </p>
+            </div>
+
+            <div class="cavalier">
+                <figure class="figcav">
+                    <figcaption>Le cavalier</figcaption>
+                    <img src="img/cavalier.png" alt="Image du cavalier sur un damier et ses déplacements">
+                    </figure>
+                    <p>Le cavalier est une pièce populaire en début de partie, vous en disposez de 2. <br>
+                        Ses déplacements se font en forme de "L", il avance de 2 cases puis tourne à 90° pour avancer d'une case dans une des deux directions disponibles. <br>
+                        Il prend des pièces ennemies si il atteri sur une pièce adversaire à la fin de son déplacement <br>
+                        Il faut aussi garder en tête qu'il ne peut pas traverser ou remplacer une pièce allié et qu'il ne peux pas non plus traverser des pièces ennemies.
+                    </p>
+            </div>
+
+            <div class="fou">
+                <figure class="figfou">
+                    <figcaption>Le fou</figcaption>
+                    <img src="img/fou.png" alt="Image du fou sur un damier et ses déplacements">
+                    </figure>
+                    <p>Le fou est comme le cavalier une pièce dont vous disposez 2 fois. <br>
+                        Ses déplacements se font exclusivement en diagonales, il n'y a pas de limite sur la distance. <br>
+                        Il prend les pièce ennemies en finissant son déplacement dessus. <br>
+                        Cependant, le fou ne peut pas traverser des pièces alliés tout comme il ne peut pas sauter une pièce adverse.
+                    </p>
+            </div>
+
+            <div class="tour">
+                <figure class="figtour">
+                    <figcaption>La tour</figcaption>
+                    <img src="img/tour.png" alt="Image de la tour sur un damier et ses déplacements">
+                    </figure>
+                    <p>La tour, tout comme les deux pièces précédentes est présente en 2 exemplaires. <br>
+                        Ses déplacements, à l'instar du fou, se font uniquement en ligne droite verticale ou horizontale, sans limite de distance. <br>
+                        Elle prend également les pièces ennemies en terminant son déplacement dessus. <br>
+                        Tout comme le fou, il lui est impossible de traverser des pièces alliés ou de sauter des pièces adverses.
+                    </p>
+            </div>
+
+            <div class="reine">
+                <figure class="figreine">
+                    <figcaption>La reine</figcaption>
+                    <img src="img/reine.png" alt="Image de la reine sur un damier et ses déplacements">
+                    </figure>
+                    <p>La reine est une pièce unique, vous n'en avez qu'une seule et elle est par ailleurs la plus puissante du jeu. <br>
+                        Elle peut se déplacer à la diagonale comme le fou et à la verticale et horizontale comme la tour sans limite de distance. <br>
+                        Elle prend les pièces ennemies en stoppant son déplacement sur celles-ci. <br>
+                        Il lui est aussi impossible de traverser des pièces alliés et sauter des pièces adversaires.
+                    </p>
+            </div>
+
+            <div class="roi">
+                <figure class="figroi">
+                    <figcaption>Le roi</figcaption>
+                    <img src="img/roi.png" alt="Image du roi sur un damier et ses déplacements">
+                    </figure>
+                    <p>Le roi, pièce unique, est la pièce maitresse du jeu puisqu'elle défini votre condition de victoire. <br>
+                        Il peut se déplacer dans toutes les directions mais seulement à une case de distance. <br>
+                        Il ne peux donc pas aller à un emplacement où une pièce alliée se situe. <br>
+                        Si votre roi se situe sur une case où il est encerclé par l'ennemi sans pouvoir se déplacer, vous perdez.
+                    </p>
+            </div>
+
+            <h1>Les règles</h1>
+
+            <div class="echec">
+                <figure class="figechec">
+                    <figcaption>L'échec</figcaption>
+                    <img src="img/echec.png" alt="Image d'une situation 'd'échec'">
+                    </figure>
+                    <p>"L'échec" est une situation qui se produit lorsque votre roi est menacé d'être capturé par une pièce adversaire lors du tour suivant. <br>
+                        De ce fait, vous êtes alors forcé de le mettre en état de sûreté. <br>
+                        Cela peut être accompli en bloquant la pièce adversaire, en la capturant ou simplement en déplaçant le roi. <br>
+                        Si vous ne parvenez pas à protéger votre roi, vous perdrez alors la partie.
+                    </p>
+            </div>
+
+            <div class="mat">
+                <figure class="figmat">
+                    <figcaption>Le mat</figcaption>
+                    <img src="img/mat.png" alt="Image d'une situation de 'mat'">
+                    </figure>
+                    <p>"Le mat" aussi appelé "échec et mat" est une situation qui se produit lorsque votre roi est en échec et que vous ne disposez d'aucun coup possible pour vous sortir de cette situation. <br>
+                        Cela voulant dire que toutes les cas où vous pourriez déplacer votre roi sont en proies à la menace d'une pièce adverse et qu'aucune de vos pièce ne puisse bloquer cette menace d'échec. <br>
+                        Ainsi, le mat se produit, c'est à dire que votre roi est capturé. Vous êtes ainsi échec et mat, la partie est perdue.
+                    </p>
+            </div>
+
+            <h1>Approfondir</h1><br>
+
+            <p>Quelques liens utiles :</p>
+
+            <ul>
+                <li>
+                    <a href="https://www.chess.com/fr/apprendre-a-jouer-aux-echecs">Préparation de l'échiquier, explication avec d'autres mots, d'autres principes.</a>
+                </li>
+                <li>
+                    <a href="https://www.chess.com/fr/terms/strategie-echecs">Le concept de stratégie aux échecs et son importance</a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
+            
